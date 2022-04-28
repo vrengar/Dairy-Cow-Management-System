@@ -23,7 +23,7 @@ env:
   AZURE_WEBAPP_NAME_REGION_1: app-csa-contest-eastus    # set this to the name of your Azure Web App
   AZURE_WEBAPP_NAME_REGION_2: app-csa-contest-westus    # set this to the name of your Azure Web App  
   AZURE_WEBAPP_PACKAGE_PATH: '.'      # set this to the path to your web app project, defaults to the repository root
-  DOTNET_VERSION: '6'                 # set this to the .NET Core version to use
+  DOTNET_VERSION: '6.x'                 # set this to the .NET Core version to use
 
 on:
   push:
