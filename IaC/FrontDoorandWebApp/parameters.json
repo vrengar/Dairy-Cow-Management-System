@@ -1,0 +1,21 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "profiles_fd_csa_contest_name": {
+            "value": null
+        },
+        "sites_app_csa_contest_eastus_name": {
+            "value": null
+        },
+        "sites_app_csa_contest_westus_name": {
+            "value": null
+        },
+        "serverfarms_asp_csa_contest_eastus_name": {
+            "value": null
+        },
+        "serverfarms_asp_csa_contest_westus_name": {
+            "value": null
+        }
+    }
+}
