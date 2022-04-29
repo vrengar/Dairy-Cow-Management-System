@@ -20,8 +20,8 @@
 name: Build and deploy ASP.Net Core app to an Azure Web App
 
 env:
-  AZURE_WEBAPP_NAME_REGION_1: app-csa-contest-eastus    # set this to the name of your Azure Web App
-  AZURE_WEBAPP_NAME_REGION_2: app-csa-contest-westus    # set this to the name of your Azure Web App  
+  AZURE_WEBAPP_NAME_EASTUS: app-csa-contest-eastus    # set this to the name of your Azure Web App
+  AZURE_WEBAPP_NAME_WESTUS: app-csa-contest-westus    # set this to the name of your Azure Web App  
   AZURE_WEBAPP_PACKAGE_PATH: '.'      # set this to the path to your web app project, defaults to the repository root
   DOTNET_VERSION: '6.x'                 # set this to the .NET Core version to use
 
@@ -80,14 +80,14 @@ jobs:
         id: deploy-to-webapp-east
         uses: azure/webapps-deploy@v2
         with:
-          app-name: ${{ env.AZURE_WEBAPP_NAME_RETION_1 }}
-          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE_REGION_1 }}
+          app-name: ${{ env.AZURE_WEBAPP_NAME_EASTUS }}
+          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE_EASTUS }}
           package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
 
       - name: Deploy to Azure Web App West
         id: deploy-to-webapp-west
         uses: azure/webapps-deploy@v2
         with:
-          app-name: ${{ env.AZURE_WEBAPP_NAME_REGION_2 }}
-          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE_REGION_2 }}
+          app-name: ${{ env.AZURE_WEBAPP_NAME_WESTUS }}
+          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE_WESTUS }}
           package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
