@@ -76,7 +76,7 @@ jobs:
         with:
           name: .net-app
 
-      - name: Deploy to Azure Web App Region1
+      - name: Deploy to Azure Web App East
         id: deploy-to-webapp-east
         uses: azure/webapps-deploy@v2
         with:
@@ -84,7 +84,7 @@ jobs:
           publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE_REGION_1 }}
           package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
 
-      - name: Deploy to Azure Web App East
+      - name: Deploy to Azure Web App West
         id: deploy-to-webapp-west
         uses: azure/webapps-deploy@v2
         with:
