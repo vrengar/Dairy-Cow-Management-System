@@ -1,0 +1,25 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "virtualWans_boumatic_vwan_dev1_name": {
+            "defaultValue": "boumatic-vwan-dev1",
+            "type": "String"
+        }
+    },
+    "variables": {},
+    "resources": [
+        {
+            "type": "Microsoft.Network/virtualWans",
+            "apiVersion": "2020-11-01",
+            "name": "[parameters('virtualWans_boumatic_vwan_dev1_name')]",
+            "location": "eastus",
+            "properties": {
+                "disableVpnEncryption": false,
+                "allowBranchToBranchTraffic": true,
+                "office365LocalBreakoutCategory": "None",
+                "type": "Standard"
+            }
+        }
+    ]
+}
