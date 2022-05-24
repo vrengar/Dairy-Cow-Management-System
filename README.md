@@ -1,11 +1,12 @@
 # Dairy-Cow-Management-System
 
-**Title:** Dairy Cow Management System; Industry: Manufacturing ; Customer: BouMatic (BouMatic) and Alta Genetics (Alta Genetics)
-Background - Microsoft’s SMC clients BouMatic (BouMatic) and Alta Genetics (Alta Genetics) are leaders in the cow-focused technology space with products such as cow-focused milking systems and automation solutions including software and robots designed for a cow’s comfort, health, and performance. 
+**Title:** Dairy Cow Management System; Industry: Manufacturing ; 
+
+**Background** - Microsoft’s SMC clients are leaders in the cow-focused technology space with products such as cow-focused milking systems and automation solutions including software and robots designed for a cow’s comfort, health, and performance. 
 The company’s focus is commitment to dairy excellence for the farmer’s cows in terms of milking (gently, quickly, and completely) and also improving the productivity and profitability of the herd. Also, Alta Genetics focuses on solutions for optimizing heard genetics in terms of dairy cattle devising strategies for access to products/programs to help the farmers create their best future herd. 
 According to a Statista report there are estimated 9.45 million milk cows in the United States and sales of milk from the cows totaling $36.7 billion (in 2017), accounting for 9.5 percent of total U.S. agriculture sales (Reference: usda.gov report). Advancement in Dairy farming processes such as Robotic milking is claimed by manufacturers to have benefits for dairy cow welfare and productivity, to reduce labor costs and to liberate farmers and farm workers from the routines  of  conventional  milking. These technology advancements have helped in driving major benefits for the dairy industry in terms of reducing costs, improving quality of production, increased efficiency, sustainability, and improved performances in the wellbeing of dairy cows and their general well-being. 
 
-**Customer Pain Point:** Companies such as Boumatic and Alta Genetics support the farmers in managing their livestock (dairy cow) by embracing digital technology in the dairy farming processes. The areas of focus for the industry as a business include: 
+**Customer Pain Point:** Companies support the farmers in managing their livestock (dairy cow) by embracing digital technology in the dairy farming processes. The areas of focus for the industry as a business include: 
 1. Cow Wellbeing i.e., health (vitals) of the livestock. Here wellbeing or welfare can point to the state of physical and mental wellbeing of the cows which directly/indirectly contribute to the health and thus the productivity of the farm. The industry demands a proactive 
 2. Smart Agriculture for effective farm output in terms of milk production and contribute to environment-focused Sustainable farming solutions 
 3. Optimized heard management to drive effective monitoring of the heard. 
